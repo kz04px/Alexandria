@@ -3,6 +3,7 @@
 #include <atomic>
 #include <string>
 
+
 struct S_ThreadData;
 struct S_Board;
 

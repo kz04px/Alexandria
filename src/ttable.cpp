@@ -8,6 +8,7 @@
 #include "windows.h"
 #endif
 
+
 S_HashTable HashTable[1];
 
 void ClearHashTable(S_HashTable* table) {
