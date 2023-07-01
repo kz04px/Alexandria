@@ -1,13 +1,9 @@
 #include "ttable.h"
 #include "assert.h"
 #include "io.h"
+#include "xmmintrin.h"
 #include <cstring>
 #include <iostream>
-//Needed for the TT prefetch
-#ifdef _WIN32
-#include "windows.h"
-#endif
-
 
 S_HashTable HashTable[1];
 
